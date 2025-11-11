@@ -1,0 +1,10 @@
+node_modules/
+.vercel/
+dist/
+.DS_Store
+*.log
+.env
+.env.local
+*.bat
+.vscode/
+package-lock.json

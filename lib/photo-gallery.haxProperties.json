@@ -1,0 +1,19 @@
+{
+  "canScale": true,
+  "canPosition": true,
+  "canEditSource": true,
+  "settings": {
+    "configure": [],
+    "advanced": []
+  },
+  "saveOptions": {
+    "unsetAttributes": []
+  },
+  "demoSchema": [
+    {
+      "tag": "photo-gallery",
+      "properties": {},
+      "content": ""
+    }
+  ]
+}

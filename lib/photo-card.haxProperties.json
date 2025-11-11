@@ -1,0 +1,16 @@
+{
+  "canScale": true,
+  "canPosition": true,
+  "canEditSource": true,
+  "settings": {
+    "configure": [
+      {
+        "property": "photo",
+        "title": "Photo Data",
+        "description": "Photo object with image and author data",
+        "inputMethod": "object"
+      }
+    ],
+    "advanced": []
+  }
+}
