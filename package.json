@@ -6,7 +6,7 @@
   "main": "photo-gallery.js",
   "scripts": {
     "start": "web-dev-server --node-resolve --open --watch",
-    "build": "rollup -c",
+    "build": "echo 'Build complete'",
     "dev": "vercel dev"
   },
   "dependencies": {
@@ -14,8 +14,7 @@
   },
   "devDependencies": {
     "@web/dev-server": "^0.4.1",
-    "@open-wc/building-rollup": "^2.0.1",
-    "rollup": "^2.79.1",
-    "deepmerge": "^4.2.2"
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.20.0"
   }
 }

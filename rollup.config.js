@@ -1,12 +1,12 @@
-import { createDefaultConfig } from '@open-wc/building-rollup';
-import deepmerge from 'deepmerge';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 
-const config = createDefaultConfig({
-  input: './index.html',
-});
-
-export default deepmerge(config, {
+export default {
+  input: 'index.html',
   output: {
     dir: 'dist',
+    format: 'es'
   },
-});
+  plugins: [
+    nodeResolve()
+  ]
+};
